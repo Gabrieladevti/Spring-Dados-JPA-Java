@@ -23,9 +23,6 @@ Possibilidade de integrar código de repositório customizado
 
 Fácil integração Spring com namespace personalizado
 
-Código de Conduta
-Este projeto é regido pelo Código de Conduta da Primavera . Ao participar, espera-se que você cumpra este código de conduta. Informe o comportamento inaceitável para spring-code-of-conduct@pivotal.io .
-
 Começando
 Aqui está um teaser rápido de um aplicativo usando Spring Data Repositories em Java:
 
@@ -123,56 +120,3 @@ If you'd rather like the latest snapshots of the upcoming major version, use our
   <url>https://repo.spring.io/libs-snapshot</url>
 </repository>
 ----
-
-Conseguindo ajuda
-Está tendo problemas com o Spring Data? Adoraríamos ajudar!
-
-Verifique a documentação de referência e Javadocs .
-
-Aprenda os fundamentos do Spring - Spring Data baseia-se no Spring Framework, verifique o site spring.io para obter uma grande quantidade de documentação de referência. Se você está apenas começando com o Spring, experimente um dos guias .
-
-Se você estiver atualizando, verifique o changelog para recursos “novos e dignos de nota”.
-
-Faça uma pergunta - monitoramos stackoverflow.com em busca de perguntas marcadas com spring-data-jpa. Você também pode bater um papo com a comunidade no Gitter .
-
-Relate bugs com Spring Data JPA no rastreador de problemas do GitHub .
-
-Problemas de relatório
-Spring Data usa GitHub como sistema de rastreamento de problemas para registrar bugs e solicitações de recursos. Se você quiser levantar um problema, siga as recomendações abaixo:
-
-Antes de registrar um bug, pesquise o rastreador de problemas para ver se alguém já relatou o problema.
-
-Se o problema ainda não existir, crie um novo .
-
-Forneça o máximo de informações possível com o relatório de problema, nós gostamos de saber a versão do Spring Data que você está usando e a versão JVM, rastreamentos de pilha completos e quaisquer informações de configuração relevantes.
-
-Se você precisar colar o código ou incluir um rastreamento de pilha, formate-o como código usando backtick triplo.
-
-Se possível, tente criar um caso de teste ou projeto que replique o problema. Anexe um link para seu código ou um arquivo compactado contendo seu código. Use um banco de dados na memória se possível ou configure o banco de dados usando Testcontainers .
-
-Construindo a partir da Fonte
-Você não precisa compilar a partir do código-fonte para usar Spring Data (binários em repo.spring.io ), mas se quiser experimentar o que há de melhor e mais recente, Spring Data pode ser facilmente compilado com o invólucro maven . Você também precisa do JDK 1.8.
-
- $ ./mvnw instalação limpa
-Se quiser construir com o mvncomando regular , você precisará do Maven v3.5.0 ou superior .
-
-Consulte também CONTRIBUTING.adoc se desejar enviar solicitações pull e, em particular, assine o Acordo de Contribuidor antes de sua primeira alteração não trivial.
-
-Documentação de referência de construção
-Construir a documentação também constrói o projeto sem a execução de testes.
-
- $ ./mvnw instalação limpa -Pdistribute
-A documentação gerada está disponível em target/site/reference/html/index.html.
-
-Guias
-O site spring.io contém vários guias que mostram como usar o Spring Data passo a passo:
-
-Acessando dados com JPA : Aprenda como trabalhar com persistência de dados JPA usando Spring Data JPA.
-
-Acessar dados JPA com REST é um guia para criar um serviço da web REST expondo dados armazenados com JPA por meio de repositórios.
-
-Exemplos
-Os exemplos de dados do Spring contém projetos de exemplo que explicam recursos específicos com mais detalhes.
-
-Licença
-Spring Data JPA é um software de código aberto lançado sob a licença Apache 2.0 .
